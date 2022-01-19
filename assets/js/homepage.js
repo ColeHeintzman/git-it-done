@@ -23,3 +23,7 @@ var formSubmitHandler = function(event) {
 };
 
 userFormEl.addEventListener("submit", formSubmitHandler);
+
+var displayRepos = function(repos, searchTerm) {
+    console.log(repos);
+}
